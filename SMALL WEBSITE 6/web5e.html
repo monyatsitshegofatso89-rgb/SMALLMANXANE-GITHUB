@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Master Football Club</title>
+<!-- Font Awesome CDN for social media icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* pink background */
+  }
+
+  /* Header style */
+  .header {
+    display: flex;
+    align-items: center;
+    background-color: #3399cc;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 20px;
+  }
+
+  .logo-box {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  /* Navigation styles */
+  .nav {
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav a {
+    padding: 8px 12px;
+    background-color: #222;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background 0.3s;
+  }
+
+  .nav a:hover {
+    background-color: #444;
+  }
+
+  /* Main content styles */
+  .main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* Map container */
+  .map-container {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+
+  /* Map image style */
+  .map-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Welcome paragraph */
+  .welcome {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Sections styles */
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .section .text {
+    flex: 1;
+    padding: 15px;
+    min-width: 300px;
+  }
+
+  .section .image {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Footer styles */
+  .footer {
+    background-color: #222;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #00aced;
+  }
+</style>
+</head>
+<body>
+
+<!-- Header with logo and navigation -->
+<div class="header">
+  <div class="logo">
+    <div class="logo-box"></div>
+    Master Football Club
+  </div>
+  <nav class="nav">
+    <a href="#">HOME</a>
+    <a href="#">SERVICES</a>
+    <a href="#">PORTFOLIO</a>
+    <a href="#">SHOP</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">SEARCH</a>
+  </nav>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+  <!-- Map Section -->
+  <div class="map-container">
+    <h2 style="text-align:center;">Map</h2>
+    <img class="map-image" src="map.jpeg" alt="Map of Gaborone, Botswana" />
+  </div>
+
+  <!-- Welcome paragraph -->
+  <p class="welcome">
+    Welcome to Master Football Club, a premier training club located in Gaborone, Botswana. Our club aims to provide exceptional training services that empower youth to achieve their goals and unlock their full potential and inspiration toward football so they can all be able to follow their passion.
+  </p>
+
+  <!-- First Section -->
+  <div class="section">
+    <div class="image">
+      <img src="faka.jpeg" alt="Training Sessions" />
+    </div>
+    <div class="text">
+      <h3>Training Sessions</h3>
+      <p>
+        We offer one-on-one training sessions tailored to each trainee’s unique practicing style. Our experienced trainers work with trainees to identify their strengths and areas for improvement.
+      </p>
+      <p>
+        Group Training Sessions bring the spirit of teamwork to learning, similar to youth football squads. These dynamic sessions encourage players to come together, collaborate, and support each other's growth.
+      </p>
+      <p>
+        It’s all about building skills, sharing strategies, and lifting each other up. Join us to experience the power of learning through connection and teamwork.
+      </p>
+    </div>
+  </div>
+
+  <!-- Second Section -->
+  <div class="section">
+    <div class="text">
+      <h3>Game Preparation</h3>
+      <p>
+        We offer targeted friendly games to help youth feel confident and ready for their real matches like tournaments.
+      </p>
+      <p>
+        Our trainers provide strategies for the youth to train well and manage their time effectively.
+      </p>
+    </div>
+    <div class="image">
+      <img src="manxane.jpeg" alt="Game Practice" />
+    </div>
+  </div>
+
+</div>
+
+<!-- Social Media Footer -->
+<div class="footer">
+  <div class="social-icons">
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+
+</body>
+</html>
